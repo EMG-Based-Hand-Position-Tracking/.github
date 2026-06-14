@@ -4,7 +4,7 @@ This organization hosts the complete hardware-software co-design framework devel
 
 Our work bridges the gap between laboratory biomechanics and deployable prosthetic hardware by enabling Transformer-based continuous kinematic estimation on edge-FPGA devices without cloud dependency.
 
-### 🚀 Our Project Architecture
+### Our Project Architecture
 
 Our system splits cleanly into two interconnected domains across our core repositories:
 
@@ -13,7 +13,7 @@ Our system splits cleanly into two interconnected domains across our core reposi
           │ 
           ▼
 ┌──────────────────────────────────┐      ┌──────────────────────────────────┐
-│      📦 hardware-ai-core         │      │      📦 unity-visualization      │
+│         hardware-ai-core         │      │        unity-visualization       │
 ├──────────────────────────────────┤      ├──────────────────────────────────┤
 │ • Quantized RoFormer (8-bit QAT) │      │ • 3D Digital Twin (Unity)        │
 │ • Vitis HLS Hardware Accelerator │ ───> │ • Kalman Filter Trajectory       │
@@ -24,7 +24,7 @@ Our system splits cleanly into two interconnected domains across our core reposi
 
 ---
 
-### 🛠️ Core Repositories
+### Core Repositories
 
 * **[hardware-ai-core](https://github.com/EMG-Based-Hand-Position-Tracking/Hardware-AI)**: Contains the PyTorch training scripts, Quantization-Aware Training (QAT) configurations, Vitis HLS C++ design, and the RTL deployment configurations for the Xilinx Zynq-7000 SoC (ZedBoard).
 * **[unity-visualization](https://github.com/EMG-Based-Hand-Position-Tracking/Visualization)**: Contains the Unity 3D engine assets, C# UI scripts, serial communication, and the Kalman filtering logic.
@@ -40,7 +40,7 @@ For the complete technical write-up and a high-level visual summary of the proje
 
 ---
 
-### 👩‍💻 The Engineering Team
+### The Engineering Team
 
 This capstone project was conceptualized, designed, and optimized by:
 
@@ -50,7 +50,7 @@ This capstone project was conceptualized, designed, and optimized by:
 
 ---
 
-### 🍿 Technical Quick Facts
+### Technical Quick Facts
 
 * **Model Architecture:** Custom RoFormer (Transformer with Rotary Positional Embeddings) trained on the NinaPro sEMG dataset to regress 10 independent joint angles.
 * **Hardware Precision:** Evaluated using custom `ap_fixed` precision types via QAT, avoiding accuracy degradation while dropping to 8-bit integers.
