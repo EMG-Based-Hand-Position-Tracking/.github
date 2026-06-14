@@ -1,4 +1,4 @@
-## Hi there 👋 Welcome to the EMG Hand Tracking Project
+## Hi there 👋 Welcome to the EMG-Based Hand Prosthetics Project
 
 This organization hosts the complete hardware-software co-design framework developed as a Senior Year Capstone Design Project in the Department of Electrical and Computer Engineering, Dhanani School of Science and Engineering, Habib University. 
 
