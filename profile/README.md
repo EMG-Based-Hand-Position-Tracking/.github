@@ -31,7 +31,16 @@ Our system splits cleanly into two interconnected domains across our core reposi
 
 ---
 
-### 👩‍💻 The Engineering Team
+### � Report and Graphical Abstract
+
+For the complete technical write-up and a high-level visual summary of the project, please see:
+
+* [Project Report](../assests/Project_Report.pdf)
+* [Graphical Abstract](../assests/Graphical%20Abstract.pdf)
+
+---
+
+### �👩‍💻 The Engineering Team
 
 This capstone project was conceptualized, designed, and optimized by:
 
