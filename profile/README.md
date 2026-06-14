@@ -56,7 +56,3 @@ This project is open for academic and open-source research extensions.
 
 1. If you are extending our hardware blocks, please review the `config.h` in the hardware repository to match your sequence lengths and dimension metrics.
 2. For bug reports or feature requests regarding the data-packet stream protocols, please open an issue directly in the respective repository.
-
-```
-
-```
